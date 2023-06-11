@@ -1,0 +1,93 @@
+<link rel="stylesheet" href="style.css">
+<head></head><title>diligent trade solution</title>
+</head>
+<body>
+    <header>
+        <div class="container" id="navbar">
+            <div class="main-head">
+                <img src="logo.png">
+                <nav class="nav"> 
+                   <ul>
+                    <li class="links"><a href="#about">About Us</a></li>
+                    <li class="links"><a href="#principles">Our Principles</a></li>
+                    <li class="links"><a href="#services">Our Services</a></li>
+                    <li class="links"><a href="#contact">Contact US</a></li>
+                    <li class="links"><a href="#price">Minimum Price</a></li>
+                   </ul> 
+                </nav> 
+
+            </div>
+
+        </div>
+    </header> 
+    <section id="nope">
+        <Div class="wrapper">
+            <img src="second.jpg" alt="">
+            <div class="textbox">
+                <h1>We help you find the coffee you need, when and how you need it!</h1>
+Outstanding results, less worry!
+We help you find the coffee you want within the time and price range you specify, with significantly less headache!<br>
+<div class="Submit1">
+    <button><a href="#">Submit Your Request Now!</a></button>
+</div>
+            </div>
+        </Div>
+    </section>
+    <section></section>
+    <section id="about" class="top">
+       <div class="about">
+        <h1>About Us</h1>
+      <p>  From a total of 300,000 tons of coffee, Ethiopia’s total export earnings for the 2021/22 fiscal year ended with a record of 1.4 billion USD. In the first quarter of the current fiscal year alone, an export earning of over $ 420 million has been reported. From such figures, one can presume the hard work and few sleepless nights for all involved.
+
+Doing business with an entity on the other side of the globe is always a bit challenging. Having a capable and trustworthy assistant who understands the economic, legal, political, and social landscape is ideal for achieving success in international trade.
+
+Diligent Trade Solutions (DTS) is an emerging company aiming to solve some of the critical challenges in Ethiopian the coffee export business. Equipped with experts in coffee sourcing, quality inspection, logistics, and documentation, DTS is helping ease the burden of coffee buyers; desired result, less heartache! DTS looks to facilitate exports by representing interested companies and assisting them in any way possible, thereby providing investors, traders, and various entities a much-needed insight into minimizing their risks and assurance of results. We serve as your office abroad. Partnering with Diligent Trade Solutions
+ is a strategic decision that will undoubtedly give you an edge and add value to your company’s long-term business goals.</p>
+      </div>    
+      <div class="ethio">
+        <h1>Ethiopia: Where coffee and
+            Mankind call home</h1>
+            <img src="three.jpg">
+            <p>Ethiopia has produced some of the most extraordinary coffees in the world since its discovery eons ago. Ethiopia is widely recognized as the birthplace of coffee, and among coffee connoisseurs, the tale of a goat herder, a monk, and errant goats is almost as well-known as coffee itself. The biggest producer of coffee in Africa today, Ethiopia, is thought to have been exporting coffee as early as the 17th century, though the trade didn't take off until the 19th century.
+
+                The value of coffee to the economy of the nation today cannot be overstated. Ethiopia is heavily dependent on coffee as a primary source of income: it accounts for close to 70% of all export revenues. An estimated 15 million Ethiopians are employed in the coffee industry. Ethiopia uses three different "production systems" for coffee: Forest Coffees, where locals harvest coffee that has grown wild; Garden Coffees, grown in small holder plots (typically measured in terms of trees rather than hectares); and Plantation Coffees, which make up a very small portion of Ethiopian coffee and are grown on vast estates. The Garden Coffee System is used to generate the great majority of the nation's coffee. Wet processing and sun-drying are the two most common methods for processing coffee. Currently, only 20–30% of Ethiopian coffee is washed, with the remaining 70–80% being sun- or no-washed. Ethiopians are among the continent's biggest coffee drinkers, and the coffee trend there is steadily
+                 expanding. Domestic consumption accounts for about half of the nation's coffee production.</p>
+                 <div class="ethio1">
+                 <img src="four.webp">
+                </div>
+                 <p>A 15-year coffee development strategy was recently introduced by the Ethiopian Coffee and Tea Authority (ECTA), according to officials, and it will be crucial to optimizing the nation's coffee production capability.
+
+                    The COVID-19 epidemic delayed the introduction of the plan, which was created in cooperation with the Ethiopian Institute of Agriculture Research (EIAR) and the international NGO TechnoServe, by more than two years. It points out prospects along the entire coffee value chain to significantly enhance the nation's exports of high-quality, environmentally friendly coffee, boosting farmer incomes and generating jobs for millions of people. The Coffee Strategy, which will be in effect until 2033, is built on six major pillars and intends to assist in the creation of a long-term, common vision among the sector's major players. These include processing, value-adding, marketing, value-added extension services, research, and sector strengthening.</p>
+      </div> 
+      <div class="last">
+        <p><b>The minimum coffee pricing directive</b> was a new regulation that the Ethiopian Tea & Coffee Association issued to the market. The regulation obliges Ethiopian coffee exporters to sell their product at a minimum price or more. The weekly minimum pricing is broken down by location, grade, and exporter type.</p>
+      </div>
+    </section>
+    <section id="principles" class="top">
+        <h1>principles</h1>
+    </section>
+    <section id="services" class="top">
+        <h1>service</h1>
+    </section>
+    <section id="contact" class="top">
+        <h1>contact</h1>
+    </section>
+    <section id="price" class="top">
+        <h1>min</h1>
+    </section>
+    <script>
+        const li = document.querySelectorAll(".links");
+        const sec = document.querySelectorAll(".top");
+
+        function activeMenu(){
+            let len=sec.length;
+            while(--len && window.scrollY + 97 < sec[len].offsetTop){}
+            li.forEach(ltx => ltx.classList.remove("active"));
+            li[len].classList.add("active");
+                }
+                activeMenu();
+                window.addEventListener("scroll",activeMenu);
+
+ 
+    </script>
+</body>
