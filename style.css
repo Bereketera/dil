@@ -2,13 +2,15 @@
 body{
     margin: 0;
     padding: 0;
-    box-sizing: :border-box;
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
+    width: 100%;
+  
 
  } 
  header{
-    padding:  1px 20px;
+    
     background: white;
     position: sticky;
     top:0;
@@ -33,7 +35,7 @@ body{
  height: 70px;
  color:black;
 }
- ul{
+nav ul{
     display: flex;
     list-style: none;
  }
@@ -52,9 +54,7 @@ body{
     color: #29140f;
     padding: 2px;
  }
- section{
 
- }
  nav li a:hover{
  font-size: 18px;
  }
@@ -87,7 +87,13 @@ body{
     max-width: 600px;
     
  }
+ .textbox{
+   font-family:  'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+ }
  .textbox h1{
+   font-family:'Poppins', sans-serif;
     font-size: 40px;
  }
  .Submit1{
@@ -99,7 +105,7 @@ body{
  }
  .textbox button{
    
-    box-shadow: -3px 5px 3px rgb(167, 166, 166);
+    box-shadow: -3px 5px 3px rgb(110, 109, 109);
    
     border-radius: 10px;
   
@@ -158,14 +164,17 @@ body{
     padding-bottom: 40px;
  }
  .ethio{
-    
+   width: 100%;
+    margin: auto;
+    margin-bottom: 40px;
     background-color: #C4A484;
-    
+
  }
 
  .ethio h1{
 text-align: center;
     color: #fff;
+    font-size: 40px;
  }
  .ethio p{
     font-family:  'Roboto', sans-serif;
@@ -173,17 +182,20 @@ text-align: center;
     line-height: 1.7;
         color: #fff;
         padding-right: 30px;
-        padding-bottom: 30px;
-        margin-left: 20px;
+       padding-bottom: 60px;
+        margin-left: 30px;
+        font-size: 19px;
+       
      }
  .ethio img{
-    box-shadow: 3px 5px 10px rgb(8, 8, 8);
+    
     width:600px;
     float: left;
-    margin-right: 20px;
+    margin-left: 10px;
+
  }
  .ethio1 img{
-    box-shadow: 3px 5px 10px rgb(8, 8, 8);
+   
     width:600px;
     float: right;
     margin-left: 20px;
@@ -199,5 +211,162 @@ text-align: center;
     color: #fff;
     font-weight: 400;
     line-height: 1.7;
+   
+ }
+ #principles{
+ 
+   background-color: #fafafa;
+ }
+
+ .prin h1{
+  
+   font-family:'Poppins', sans-serif;
+   font-weight: bold;
+   font-size: 40px;
+text-align: center;
+ }
+ .prin p{
+   text-align: center;
+   font-family:  'Roboto', sans-serif;
+ }
+ .prin img{
+   align-items: center;
+width: 300px;
+ }
+ .dil{
+   margin: auto;
+   text-align: center;
+   box-shadow: -5px 5px 10px #bfc0c0;
+   width: 95%;
+   height: 200px;
+   margin-bottom: 50px;
+ }
+ .dil h2{
+   font-family:'Poppins', sans-serif;
+   font-weight: bold;
+   font-size: 30px;
+   padding-top: 50px;
+padding-right: 100px;
+ }
+ .dil p{
+   font-family:  'Roboto', sans-serif;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+ }
+ .dil img{
+   float: left;
+   padding-top: 10px;
+   padding-left: 20px;
+   object-fit: cover;
+   
+ }
+ .dil:hover{
+   background-color: #C4A484;
+   color: #fff;
+ }
+
+
+ .int{
+   width: 95%;
+   margin: auto;
+   text-align: center;
+   box-shadow: -5px 5px 10px #bfc0c0;
+   
+   height: 200px;
+   margin-bottom: 50px;
+ }
+ .int:hover{
+   background-color: #C4A484;
+   color: #fff;
+ }
+ .int h2{
+   font-family:'Poppins', sans-serif;
+   font-weight: bold;
+   font-size: 30px;
+   padding-top: 50px;
+padding-right: 100px;
+ }
+ .int p{
+   font-family:  'Roboto', sans-serif;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+ }
+ .int img{
+   float: left;
+   padding-top: 10px;
+   padding-left: 20px;
+   object-fit: cover;
+   
+ }
+
+
+
+
+
+ .faith{
+   margin: auto;
+   text-align: center;
+   box-shadow: -5px 5px 10px #bfc0c0;
+   width: 95%;
+   height: 200px;
+   margin-bottom: 50px;
+ }
+ .faith:hover{
+   background-color: #C4A484;
+   color: #fff;
+ }
+ .faith h2{
+   font-family:'Poppins', sans-serif;
+   font-weight: bold;
+   font-size: 30px;
+   padding-top: 50px;
+padding-right: 100px;
+ }
+ .faith p{
+   font-family:  'Roboto', sans-serif;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+ }
+ .faith img{
+   float: left;
+   padding-top: 10px;
+   padding-left: 20px;
+   object-fit: cover;
+   
+ }
+ #services img{
+   width: 500px;
+   float: left;
+ 
+   padding-left: 20px;
+   
+ 
+ }
+ #services h1{
+   font-family:'Poppins', sans-serif;
+   font-size: bold;
+  padding-left: 150px;
+   font-size: 55px;
+ }
+ #services h2{
+   font-family:'Poppins', sans-serif;
+   font-size: bold;
+margin-bottom: -25px;
+   font-size: 30px;
+ }
+ #services p{
+   font-family:  'Roboto', sans-serif;
+   line-height: 1.8;
+   margin-right: 30px;
+ }
+ #services ul{
+  
+  padding-left: 10px;
+ 
+   font-family:  'Roboto', sans-serif;
+   line-height: 1.8;
  }
  
