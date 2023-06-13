@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Roboto:wght@300;400&family=Ubuntu&display=swap');@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Roboto:wght@300&family=Ubuntu&display=swap');
+html{
+   scroll-behavior: smooth;
+}
 body{
     margin: 0;
     padding: 0;
@@ -75,7 +78,7 @@ nav ul{
  }
  .wrapper{
    
-   padding: 110px;
+   padding: 90px;
    color:#29140f ;
    font-family:'Poppins', sans-serif;
    font-size: bold;
@@ -93,39 +96,48 @@ nav ul{
     font-size: 20px;
  }
  .textbox h1{
+   margin-top: -50px;
    font-family:'Poppins', sans-serif;
     font-size: 40px;
  }
+ .textbox p{
+   margin-top: -50px;
+   line-height: 1.8;
+   color: #52413c;
+ }
  .Submit1{
     padding-top: 85px;
+    align-items: center;
     
-    margin: auto;
     width: 300px;
     
  }
  .textbox button{
    
-    box-shadow: -3px 5px 3px rgb(110, 109, 109);
-   
-    border-radius: 10px;
+    
+   margin-left: 100px;
+    border-radius: 20px;
+    height: 70px;
+    width: 400px;
   
     font-family:'Poppins', sans-serif;
     text-align: center;
-    color: #fff;
+    color: #C4A484;
     font-size: 22px;
-    background-color:#C4A484;
+    background-color: #C4A484;
    
     padding: 8px;
 	border:none;
  }
  .textbox button a{
  
-    
+   font-family:'Poppins', sans-serif;
+   font-weight: bold;
    
     
     color: #fff;
-    
-   
+    margin-top: 10px;
+   font-size: 20px;
     text-decoration: none;
     
 	
@@ -143,9 +155,10 @@ nav ul{
     text-align: center;
     
  }
+
  .about:hover{
-   color: #fff;
-    background-color: #C4A484;
+   color: #C4A484;
+    
  }
  .about h1{
 
@@ -154,6 +167,7 @@ nav ul{
     font-size: 40px;
  }
  .about p{
+   color: #52413c;
     font-family:  'Roboto', sans-serif;
     font-weight: 400;
    font-size: 17px;
@@ -167,20 +181,20 @@ nav ul{
    width: 100%;
     margin: auto;
     margin-bottom: 40px;
-    background-color: #C4A484;
+    background-color: #fff2d5;
 
  }
 
  .ethio h1{
 text-align: center;
-    color: #fff;
+    color: #C4A484;
     font-size: 40px;
  }
  .ethio p{
     font-family:  'Roboto', sans-serif;
     font-weight: 400;
     line-height: 1.7;
-        color: #fff;
+        color: #917b66;
         padding-right: 30px;
        padding-bottom: 60px;
         margin-left: 30px;
@@ -214,8 +228,8 @@ text-align: center;
    
  }
  #principles{
- 
-   background-color: #fafafa;
+  padding-bottom: 50px;
+   background-color: #fcfcfc;
  }
 
  .prin h1{
@@ -226,6 +240,7 @@ text-align: center;
 text-align: center;
  }
  .prin p{
+   color: #52413c;
    text-align: center;
    font-family:  'Roboto', sans-serif;
  }
@@ -234,6 +249,7 @@ text-align: center;
 width: 300px;
  }
  .dil{
+   border-radius: 15px;
    margin: auto;
    text-align: center;
    box-shadow: -5px 5px 10px #bfc0c0;
@@ -262,12 +278,13 @@ padding-bottom: 10px;
    
  }
  .dil:hover{
-   background-color: #C4A484;
-   color: #fff;
+   transform: scale(1.05);
+   
  }
 
 
  .int{
+   border-radius: 15px;
    width: 95%;
    margin: auto;
    text-align: center;
@@ -277,8 +294,7 @@ padding-bottom: 10px;
    margin-bottom: 50px;
  }
  .int:hover{
-   background-color: #C4A484;
-   color: #fff;
+   transform: scale(1.05);
  }
  .int h2{
    font-family:'Poppins', sans-serif;
@@ -306,6 +322,7 @@ padding-bottom: 10px;
 
 
  .faith{
+   border-radius: 15px;
    margin: auto;
    text-align: center;
    box-shadow: -5px 5px 10px #bfc0c0;
@@ -314,8 +331,7 @@ padding-bottom: 10px;
    margin-bottom: 50px;
  }
  .faith:hover{
-   background-color: #C4A484;
-   color: #fff;
+   transform: scale(1.05);
  }
  .faith h2{
    font-family:'Poppins', sans-serif;
@@ -337,7 +353,15 @@ padding-bottom: 10px;
    object-fit: cover;
    
  }
- #services img{
+ #services{
+   display: inline-block;
+   background-color: #fff2d5;
+   padding-bottom: 50px;
+ }
+ #services:hover{
+   color: #C4A484;
+ }
+.hand img{
    width: 500px;
    float: left;
  
@@ -353,20 +377,55 @@ padding-bottom: 10px;
  }
  #services h2{
    font-family:'Poppins', sans-serif;
-   font-size: bold;
+   font-weight: bold;
 margin-bottom: -25px;
    font-size: 30px;
  }
  #services p{
+   padding-left: 15px;
+   color: #52413c;
    font-family:  'Roboto', sans-serif;
    line-height: 1.8;
    margin-right: 30px;
  }
  #services ul{
-  
-  padding-left: 10px;
- 
+   color: #52413c;
+   
    font-family:  'Roboto', sans-serif;
    line-height: 1.8;
  }
- 
+ .photo{
+   align-items: center;
+   place-items: center;
+   text-align: center;
+   display: inline-block;
+   margin: auto;
+
+ }
+ .photo h1{
+   text-align: center;
+ }
+
+
+
+
+
+ .photo ul {
+   margin: 30px;
+   list-style: none;
+}
+.photo ul li {
+   margin: 10px;
+   display: inline-block;
+}
+
+.photo ul li img {
+   width: 600px;
+   
+   display: block;
+}
+.photo ul li :hover img {
+   transform: scale(1.5);
+
+}
+
